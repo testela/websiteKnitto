@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cari Kain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>946f6fb0-a996-41d4-8b11-a9833318db7d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88d0b28e-11c9-4a48-a1be-0e23a2e9f52f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'COMBED 24S - BURGUNDY'</defaultValue>
+      <description></description>
+      <id>88d0b28e-11c9-4a48-a1be-0e23a2e9f52f</id>
+      <masked>false</masked>
+      <name>nama_kain</name>
+   </variable>
+</TestCaseEntity>
