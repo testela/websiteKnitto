@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Kode OTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6cfdef76-2b0f-49e3-b7f9-939060d36a30</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f685af3a-4861-4283-a1d2-d640294056bf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'083821542473'</defaultValue>
+      <description></description>
+      <id>f685af3a-4861-4283-a1d2-d640294056bf</id>
+      <masked>false</masked>
+      <name>no_wa</name>
+   </variable>
+</TestCaseEntity>

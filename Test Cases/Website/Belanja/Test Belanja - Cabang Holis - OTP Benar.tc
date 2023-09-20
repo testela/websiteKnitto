@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Belanja - Cabang Holis - OTP Benar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c881b2a6-8217-4b33-afe6-03a441552bbe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd6ea9f0-5638-4653-a65f-97b2b8999867</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'083821542473'</defaultValue>
+      <description></description>
+      <id>fd6ea9f0-5638-4653-a65f-97b2b8999867</id>
+      <masked>false</masked>
+      <name>no_wa</name>
+   </variable>
+</TestCaseEntity>

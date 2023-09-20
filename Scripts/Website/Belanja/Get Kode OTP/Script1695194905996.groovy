@@ -37,13 +37,7 @@ WebUI.comment('Pilih Warna')
 
 WebUI.click(findTestObject('Belanja/Cotton Combed/20s/button_beli_20s_abu_tua'))
 
-WebUI.comment('Cek Stok Kain')
-
-WebUI.click(findTestObject('Belanja/Detail Kain/button_cek_stok'))
-
 WebUI.comment('Mengisi Qty Body dan Rib')
-
-WebUI.click(findTestObject('Belanja/Detail Kain/button_x_cekstok'))
 
 WebUI.click(findTestObject('Belanja/Detail Kain/button_beli_kain'))
 
@@ -57,41 +51,9 @@ WebUI.setText(findTestObject('Belanja/Detail Kain/input_rib'), '0.5')
 
 WebUI.click(findTestObject('Belanja/Detail Kain/button_submit_beli'))
 
-WebUI.comment('Tambah Katalog')
-
-WebUI.click(findTestObject('Belanja/Keranjang/button_tambah_barang'))
-
-WebUI.click(findTestObject('Belanja/Keranjang/tambah_katalog'))
-
-WebUI.click(findTestObject('Katalog/button_beli_complete_catalog'))
-
-WebUI.click(findTestObject('Katalog/button_beli_katalog'))
-
-WebUI.click(findTestObject('Katalog/button_increment_katalog'))
-
-WebUI.click(findTestObject('Katalog/button_beli_katalog_dipopup'))
-
 WebUI.click(findTestObject('Belanja/Keranjang/button_pengiriman'))
 
 WebUI.setText(findTestObject('Belanja/Keranjang/input_nomor_wa'), no_wa)
 
 WebUI.click(findTestObject('Belanja/Keranjang/button_login'))
-
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_1'), '6')
-
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_2'), '9')
-
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_3'), '2')
-
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_4'), '8')
-
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_5'), '2')
-
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_6'), '6')
-
-WebUI.click(findTestObject('Belanja/Keranjang/button_verifikasi'))
-
-WebUI.verifyElementPresent(findTestObject('Belanja/Keranjang/p_pesan_kode_otp_salah'), 0)
-
-WebUI.takeScreenshot('screenshoot/belanja/kode_otp_salah.png')
 
