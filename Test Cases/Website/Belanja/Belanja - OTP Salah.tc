@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Belanja - OTP Salah</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dab94aad-d9a2-44d5-a6b4-b6f8c3fead34</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05bf3a31-8a79-4344-9777-6bd030319130</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'083821542473'</defaultValue>
+      <description></description>
+      <id>05bf3a31-8a79-4344-9777-6bd030319130</id>
+      <masked>false</masked>
+      <name>no_wa</name>
+   </variable>
+</TestCaseEntity>

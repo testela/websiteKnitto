@@ -6,12 +6,11 @@
    <elementGuidId>00f8e9a6-cbfe-4452-8175-e04cd0286912</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//p[contains(text(),'Website Kami')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[3]/div</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

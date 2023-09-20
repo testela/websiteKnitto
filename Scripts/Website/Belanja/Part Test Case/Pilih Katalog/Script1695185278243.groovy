@@ -17,19 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.comment('Tambah Katalog')
 
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
+WebUI.click(findTestObject('Belanja/Keranjang/button_tambah_barang'))
 
-WebUI.callTestCase(findTestCase('Website/Handle Popup with local storage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Belanja/Keranjang/tambah_katalog'))
 
-WebUI.click(findTestObject('Navbar/menu_belanja'))
+WebUI.click(findTestObject('Katalog/button_beli_complete_catalog'))
 
-WebUI.scrollToElement(findTestObject('Belanja/Shop/section_plain'), 2)
+WebUI.click(findTestObject('Katalog/button_beli_katalog'))
 
-WebUI.click(findTestObject('Belanja/Shop/button_beli_cotton_combed'))
+WebUI.click(findTestObject('Katalog/button_increment_katalog'))
 
-WebUI.click(findTestObject('Belanja/Cotton Combed/button_beli_16s'))
+WebUI.click(findTestObject('Katalog/button_beli_katalog_dipopup'))
 
-WebUI.click(findTestObject('Belanja/Cotton Combed/16s/button_beli_combed_16s_navy'))
+WebUI.click(findTestObject('Belanja/Keranjang/button_edit_combed_20s_abutua'))
+
+WebUI.setText(findTestObject('Belanja/Detail Kain/input_body'), '1.5')
+
+WebUI.setText(findTestObject('Belanja/Detail Kain/input_rib'), '0.7')
+
+WebUI.click(findTestObject('Belanja/Detail Kain/button_submit_beli'))
 

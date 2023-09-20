@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@class=&quot;bg-primary-blue-20 Fk&quot;]</value>
+         <value>/html/body/div/div[1]/div[2]/section[4]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

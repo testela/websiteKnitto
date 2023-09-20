@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
-
-WebUI.callTestCase(findTestCase('Website/Handle Popup dengan Pindah Menu'), [('nama_kain') : 'COMBED 24S - BURGUNDY'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Website/handle popup cookie berhasil'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Home/Section Mengapa Memilih Knitto/section_mengapa_memilih_knitto'), 2)
 

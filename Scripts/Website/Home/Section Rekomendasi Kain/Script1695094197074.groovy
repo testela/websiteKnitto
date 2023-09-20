@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
-
-WebUI.callTestCase(findTestCase('Website/Handle Popup dengan Pindah Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Website/handle popup cookie berhasil'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Home/Section Rekomendasi Kain/section_rekomendasi_kain'), 2)
+
+WebUI.comment('Click Button Jenis Pakaian\'')
 
 WebUI.click(findTestObject('Home/Section Rekomendasi Kain/button_casual'))
 
@@ -42,6 +40,8 @@ WebUI.click(findTestObject('Home/Section Rekomendasi Kain/button_jacket'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Home/Section Rekomendasi Kain/button_casual'))
+
+WebUI.comment('Click Link Jenis Kain')
 
 WebUI.click(findTestObject('Home/Section Rekomendasi Kain/a_cotton_combed'))
 

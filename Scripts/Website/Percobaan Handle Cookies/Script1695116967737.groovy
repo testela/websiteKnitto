@@ -17,9 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.BASE_URL)
+
 WebUI.executeJavaScript('return window.localStorage.setItem("AlreadyVisited","1")', null)
 
 WebUI.executeJavaScript('return window.localStorage.setItem("CookieConsent","1")', null)
 
-WebUI.delay(3)
+WebUI.delay(7)
+
+WebUI.refresh()
+
+WebUI.delay(5)
+
+WebUI.refresh()
 

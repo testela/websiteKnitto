@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
-
-WebUI.callTestCase(findTestCase('Website/Handle Popup dengan Pindah Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Website/handle popup cookie berhasil'), [:], FailureHandling.STOP_ON_FAILURE)
 
 for (def index : (0..2)) {
     WebUI.click(findTestObject('Home/Banner/button_previos'))
@@ -36,8 +32,6 @@ for (def index : (0..2)) {
 WebUI.delay(2)
 
 WebUI.takeScreenshot('screenshoot/home/banner.png')
-
-WebUI.delay(3)
 
 WebUI.closeBrowser()
 

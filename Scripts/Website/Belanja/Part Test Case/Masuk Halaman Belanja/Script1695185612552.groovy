@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Navbar/menu_belanja'))
 
-WebUI.sendKeys(findTestObject('body'), Keys.chord(Keys.PAGE_DOWN))
+WebUI.scrollToElement(findTestObject('Belanja/Shop/section_plain'), 2)
 
-WebUI.click(findTestObject('Navbar/menu_tentang_kami'))
-
-WebUI.click(findTestObject('Navbar/menu_home'))
+WebUI.mouseOver(findTestObject('Navbar/logo'))
 

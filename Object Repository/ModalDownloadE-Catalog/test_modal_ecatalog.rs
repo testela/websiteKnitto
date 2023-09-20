@@ -6,12 +6,11 @@
    <elementGuidId>1789eb85-cad6-42d9-9a82-2114cb4e75f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'E-CATALOG WARNA')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div[1]/div[4]/div/div</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

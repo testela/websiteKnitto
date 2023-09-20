@@ -17,33 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
-
-WebUI.callTestCase(findTestCase('Website/Handle Popup dengan Pindah Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Website/handle popup cookie berhasil'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Home/Section Warna Baru/h2_warna_baru'), 2)
 
-WebUI.click(findTestObject('Home/Section Warna Baru/button_next'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_next'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_next'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_next'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_next'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_previous'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_previous'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_previous'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_previous'))
-
-WebUI.click(findTestObject('Home/Section Warna Baru/button_previous'))
+WebUI.comment('Click Button Beli')
 
 WebUI.click(findTestObject('Home/Section Warna Baru/button_beli'))
 
@@ -57,6 +35,22 @@ WebUI.click(findTestObject('Navbar/menu_home'))
 
 WebUI.scrollToElement(findTestObject('Home/Section Warna Baru/section_warna_baru'), 2)
 
+WebUI.comment('Click Button Next 5x')
+
+for (def index : (0..3)) {
+    WebUI.click(findTestObject('Home/Section Warna Baru/button_next'))
+}
+
+WebUI.comment('Click Button Previous 3x')
+
+for (def index : (0..1)) {
+    WebUI.click(findTestObject('Home/Section Warna Baru/button_previous'))
+}
+
+WebUI.comment('Click Button Sample Gratis')
+
+WebUI.comment('Click Link Lihat Semua Koleksi')
+
 WebUI.click(findTestObject('Home/Section Warna Baru/a_lihat_semua_koleksi'))
 
 WebUI.click(findTestObject('Navbar/menu_home'))
@@ -64,8 +58,6 @@ WebUI.click(findTestObject('Navbar/menu_home'))
 WebUI.scrollToElement(findTestObject('Home/Section Warna Baru/h2_warna_baru'), 2)
 
 WebUI.takeScreenshot('screenshoot/home/section_warna_baru.png')
-
-WebUI.delay(2)
 
 WebUI.closeBrowser()
 

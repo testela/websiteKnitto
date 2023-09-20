@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Handle Popup dengan Pindah Menu</name>
+   <name>Edit Kain</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d1dd96b3-d8ac-4279-9f7d-466e9cf5f642</testCaseGuid>
+   <testCaseGuid>87a27092-b146-49b3-8082-0ecdb5600055</testCaseGuid>
 </TestCaseEntity>
