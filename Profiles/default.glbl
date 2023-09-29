@@ -9,4 +9,19 @@
       <initValue>'https://webdev.knitto.org/'</initValue>
       <name>BASE_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>keyS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>linkP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>headerName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

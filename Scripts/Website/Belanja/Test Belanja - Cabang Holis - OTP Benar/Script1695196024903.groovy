@@ -65,19 +65,21 @@ WebUI.setText(findTestObject('Belanja/Keranjang/input_nomor_wa'), no_wa)
 
 WebUI.click(findTestObject('Belanja/Keranjang/button_login'))
 
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_1'), '6')
+WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_1'), OTP_1)
 
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_2'), '8')
+WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_2'), OTP_2)
 
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_3'), '0')
+WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_3'), OTP_3)
 
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_4'), '1')
+WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_4'), OTP_4)
 
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_5'), '0')
+WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_5'), OTP_5)
 
-WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_6'), '6')
+WebUI.setText(findTestObject('Belanja/Keranjang/input_otp_6'), OTP_6)
 
 WebUI.click(findTestObject('Belanja/Keranjang/button_verifikasi'))
+
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('screenshoot/belanja/kode_otp_benar.png')
 
@@ -92,6 +94,8 @@ WebUI.click(findTestObject('Belanja/Keranjang/button_ubah_alamat'))
 WebUI.click(findTestObject('Belanja/Keranjang/option_set_alamat'))
 
 WebUI.click(findTestObject('Belanja/Keranjang/button_checkout'))
+
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('screenshoot/belanja/berhasil_checkout.png')
 
