@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Portal/Kain/Kategori Kain/div_plain'))
 
 WebUI.click(findTestObject('Portal/Kain/Sub Kategori/btn_combed30s'))
 
-WebUI.click(findTestObject('Portal/Kain/Warna/btn_combed30s_tosca'))
+WebUI.click(findTestObject('Portal/Kain/Warna/btn_beli-combed30s_stonegreen'))
 
 WebUI.setText(findTestObject('Portal/Page Detail Kain/input_body'), '1')
 
