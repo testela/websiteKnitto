@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Belanja di Portal</name>
+   <name>Belanja di Portal - Dikirim Ekspedisi</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>799715dc-3ca1-4822-8b7e-970b6d6ab2a0</testCaseGuid>
