@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Belanja Katalog di Portal - Diambil Di Toko</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>263ec8f9-8294-44d7-b2fa-4c593c58c300</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b00a7967-e398-4bc1-891f-495e419c6c1b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b00a7967-e398-4bc1-891f-495e419c6c1b</id>
+      <masked>false</masked>
+      <name>link_belanja_portal</name>
+   </variable>
+</TestCaseEntity>

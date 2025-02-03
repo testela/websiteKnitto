@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_carded30s</name>
+   <name>input_roll</name>
    <tag></tag>
-   <elementGuidId>4e7170fc-e2d1-4018-9ef0-e9a3cd9f0008</elementGuidId>
+   <elementGuidId>795f1c47-9e51-4d58-aae0-be2ed3a52a61</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@data-testid=&quot;CARDED 30S&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@name=&quot;roll&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

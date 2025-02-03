@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_body</name>
+   <name>btn_mengerti</name>
    <tag></tag>
-   <elementGuidId>35c33fe4-d777-494b-849e-5ec3a358c978</elementGuidId>
+   <elementGuidId>2450c466-6231-4063-b5e1-cf1e1a8d7732</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name=&quot;kg&quot;]</value>
+         <value>//button[text()=&quot;Mengerti&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_carded30s</name>
+   <name>btn_carded30s_dustyrose</name>
    <tag></tag>
-   <elementGuidId>4e7170fc-e2d1-4018-9ef0-e9a3cd9f0008</elementGuidId>
+   <elementGuidId>d5674a78-611f-44ea-891c-abe61b644586</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@data-testid=&quot;CARDED 30S&quot;]</value>
+         <value>//button[@data-testid=&quot;btnDUSTYROSE&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

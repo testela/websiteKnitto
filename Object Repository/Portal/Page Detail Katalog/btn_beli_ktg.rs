@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_carded30s</name>
+   <name>btn_beli_ktg</name>
    <tag></tag>
-   <elementGuidId>4e7170fc-e2d1-4018-9ef0-e9a3cd9f0008</elementGuidId>
+   <elementGuidId>3e1fe377-8789-4507-99ba-5b457fb78b01</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@data-testid=&quot;CARDED 30S&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@data-testid=&quot;btnBeli&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

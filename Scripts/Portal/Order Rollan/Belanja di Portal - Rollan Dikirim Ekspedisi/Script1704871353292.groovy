@@ -35,29 +35,33 @@ if (false) {
     WebUI.click(findTestObject('Portal/Popup Panduan Belanja/btn_lewati'))
 }
 
-WebUI.click(findTestObject('Portal/Kain/Kategori Kain/div_plain'))
+WebUI.click(findTestObject('Portal/Kain/Kategori Kain/div_printing'))
 
-WebUI.click(findTestObject('Portal/Kain/Sub Kategori/btn_combed30s'))
+WebUI.click(findTestObject('Portal/Kain/Sub Kategori/btn_animal_series'))
 
-WebUI.click(findTestObject('Portal/Kain/Warna/btn_beli-combed30s_stonegreen'))
+WebUI.click(findTestObject('Portal/Kain/Warna/btn_animalSeries_koala_winterBlue'))
 
-WebUI.setText(findTestObject('Portal/Page Detail Kain/input_body'), '1')
+WebUI.click(findTestObject('Portal/Page Detail Kain/option_roll'))
+
+WebUI.setText(findTestObject('Portal/Page Detail Kain/input_roll'), '1')
 
 WebUI.click(findTestObject('Portal/Page Detail Kain/btn_beli'))
 
-WebUI.takeScreenshot('screenshoot/portal/data_order_diambil_ditoko.png')
+WebUI.takeScreenshot('screenshoot/portal/data_order_dikirim_ekspedisi.png')
 
 WebUI.click(findTestObject('Portal/Page Cart/btn_opsi_pengiriman'))
 
-WebUI.click(findTestObject('Portal/Page Checkout/tab_diambil_ditoko'))
+WebUI.click(findTestObject('Portal/Page Checkout/btn_pilih_ekspedisi'))
+
+WebUI.click(findTestObject('Portal/Page Checkout/btn_bandung_express'))
 
 WebUI.click(findTestObject('Portal/Page Checkout/btn_checkout'))
 
 WebUI.verifyElementPresent(findTestObject('Portal/Page Checkout/h6_terimakasih'), 5)
 
-WebUI.takeScreenshot('screenshoot/portal/portal_berhasil_checkout_diambil_ditoko.png')
+WebUI.takeScreenshot('screenshoot/portal/portal_berhasil_checkout_dikirim_ekspedisi.png')
 
-WebUI.takeScreenshotAsCheckpoint('Portal Berhasil Checkout- Diambil Di Toko')
+WebUI.takeScreenshotAsCheckpoint('Portal Berhasil Checkout - Dikirim Ekspedisi')
 
 WebUI.closeBrowser()
 

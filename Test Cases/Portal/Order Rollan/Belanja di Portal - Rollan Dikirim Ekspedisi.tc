@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Belanja di Portal - Rollan Dikirim Ekspedisi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e2ef67c-fa41-4368-97d3-45c7b2c3af7a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>beea932c-199a-46bd-aa19-f8d45a8cf59a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>beea932c-199a-46bd-aa19-f8d45a8cf59a</id>
+      <masked>false</masked>
+      <name>link_belanja_portal</name>
+   </variable>
+</TestCaseEntity>
